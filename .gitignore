@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend build
+frontend/dist/
+frontend/build/
+
+# Database
+data/db/*.db
+data/db/*.db-journal
+
+# Logs
+logs/
+*.log
+
+# Generated apps
+generated_apps/
+
+# Config (don't commit sensitive data)
+data/config.json
+data/audit_log.jsonl
+data/pending_requests.json
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Temporary
+*.tmp
+*.bak
+temp/
